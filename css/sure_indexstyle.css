@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    min-height: 100vb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
+    background: linear-gradient(to bottom, #323763, #161337, #434976);
+
+}
+.main{
+    width: 850px;
+    height: 700px;
+    background: red;
+    overflow: hidden;
+    background: url(1.jpg) no-repeat center/cover;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #c8b79c;
+   align-items: start;
+    direction: rtl;
+}
+#chk{
+    display: none;
+}
+ 
+.add{
+    margin-top: 30px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    direction: rtl;
+    
+}
+.add {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+h2{
+    color: #ffffff;
+    direction: rtl;
+    margin-right: 35%;
+    margin-bottom: 40px;
+}
+label{
+    color: #fbd7a8;
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+input{
+    
+    width: 50%;
+    height: 20px;
+    background: #e0dede;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+h3{
+    color: #f8e4cb;
+    direction: rtl;
+    margin-right: 10%;
+    display: flex;
+    align-items:start;
+}
+.form-control{
+    margin-right: 40px;
+}
+h4{
+    color: #ffffff;
+    direction: ltr;
+    text-align: right;
+    margin-right: 0%;
+    display: block;
+    align-items:end; 
+}
+
+h1{
+    color: #fbd7a8;
+    font-size: 2em;
+    justify-content: center;
+    display: flex;
+    margin: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+button{
+     margin-inline: 45%;
+     width: 80px;
+     height: 40px;
+     background-color: #f8e4cb;
+    
+}
+
+
+    
+
+
+
+

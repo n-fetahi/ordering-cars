@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(34, 36, 73);
+    color: #f2d7bb;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.car-list, .add-car {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.car-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.car-list li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-car form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-car label {
+    margin-bottom: 5px;
+}
+
+.add-car input, .add-car button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.add-car button {
+    background-color: rgb(59, 14, 77);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-car button:hover {
+    background-color: #555;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(to bottom, #262343, #1f1c3c, #30344e);
+    color: #f2d7bb;
+    text-align: center;
+    padding: 8px 0;
+   
+    
+}
+
+.car-list, .add-car {
+    width: 50%;
+    margin: 50px auto;
+    display: block;
+}
+
+.car-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.car-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.car-list li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.add-car form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-car label {
+    margin-bottom: 5px;
+}
+
+.add-car input, .add-car button {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.add-car button {
+    background-color: rgb(34, 34, 70);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-car button:hover {
+    background-color: rgb(34, 34, 70);
+}
+
+button{
+    background-color: #f2d7bb;
+    align-self: center;
+    cursor: pointer;
+}
+#b{
+  margin: 0%;
+}
+#b button{
+    display:block;
+    
+    background-color: #f2d7bb;
+   align-items: center;
+   margin: 30px;
+  
+   width: 130px;
+   height: 50px;
+   font-size: larger;
+}

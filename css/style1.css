@@ -1,0 +1,503 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300,400,500,700');
+
+
+@import url(css/camera.css);
+@import url(css/flaticon.css);
+@import url(css/prettyPhoto.css);
+@import url(css/owl.carousel.css);
+@import url(css/font-awesome.min.css);
+
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: rgb(69, 20, 92);
+
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 1em 0;
+  
+  }
+  h1{
+    color: aliceblue;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    padding-left: 30%;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+  }
+  img{
+    margin-left: 20%;
+  }
+  /* Styles for cars management */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for bookings management */
+  /* Add your styles here */
+  
+  /* Styles for employees management */
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form button {
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #7051a3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #b98deb;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  /* Styles for bookings management */
+  section#bookings table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  section#bookings table, 
+  section#bookings th, 
+  section#bookings td {
+    border: 1px solid #ddd;
+  }
+  
+  section#bookings th, 
+  section#bookings td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  section#bookings th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for users management */
+  section#users form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  section#users form input[type="text"],
+  section#users form input[type="email"],
+  section#users form button {
+    margin-bottom: 10px;
+  }
+  
+  section#users form input[type="text"],
+  section#users form input[type="email"],
+  section#users form button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  section#users form button {
+    background-color: #7f4caf;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section#users form button:hover {
+    background-color: #c79be0;
+  }
+  
+  section#users ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section#users ul li {
+    margin-bottom: 5px;
+  }/* Styles for bookings management */
+  section#bookings table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  section#bookings table, 
+  section#bookings th, 
+  section#bookings td {
+    border: 1px solid #ddd;
+  }
+  
+  section#bookings th, 
+  section#bookings td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  section#bookings th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for users management */
+  section#users form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  section#users form input[type="text"],
+  section#users form input[type="email"],
+  section#users form button {
+    margin-bottom: 10px;
+  }
+  
+  section#users form input[type="text"],
+  section#users form input[type="email"],
+  section#users form button {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  section#users form button {
+    background-color: #824caf;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section#users form button:hover {
+    background-color: #8645a0;
+  }
+  
+  section#users ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  section#users ul li {
+    margin-bottom: 5px;
+  }
+  
+
+
+html, body{
+	height: 100%;
+}
+
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #181717;
+    margin: 0
+}
+
+h1 {
+    font-size: 24px;
+    color: #2b2f56;
+  
+}
+
+h2 {
+    font-size: 40px;
+    text-align: right;
+    direction: rtl;
+    color:#d0a16f ;
+    margin-top: 40px;
+    text-decoration: underline;
+    margin-bottom: 40px;
+   
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    color:#0c0c0b ;
+    margin-top: 40px;
+    
+   margin-bottom: 40px;
+   
+   }
+
+h4 {
+    font-size: 16px
+}
+
+h5 {
+    font-size: 18px;
+    color: #2b2f56;
+    text-align: right;
+
+}
+
+h6 {
+    font-size: 13px
+}
+
+p{
+   
+    font-size: 18px;
+    color: #2b2f56;
+    
+}
+#text p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #2b2f56;
+    text-align:center;
+    
+}
+
+#kind{
+    padding: 5;
+    padding-bottom: 50px;
+    
+}
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+    padding-bottom: 0%;
+}
+
+.section.lb {
+    background-color: #ffffff;
+}
+
+
+.section-title h3 {
+    font-size: 38px;
+    margin: 0 0 25px;
+    padding: 0;
+    text-transform: none;
+   font-weight: 500;
+    text-align: start;
+    margin-bottom: 60px;
+    text-align: center;
+   
+}
+
+.btn-hover-new:hover::after {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+}
+
+
+/*------------------------------------------------------------------
+    PORTFOLIO
+-------------------------------------------------------------------*/
+
+
+
+
+.post-thumb{
+    
+	position: relative;
+    
+}
+
+.post-box{
+	-webkit-box-shadow: 0px 5px 35px 0px rgba(241, 182, 53, 0.15);
+	box-shadow: 0px 5px 35px 0px rgba(251, 191, 39, 0.15);
+	background: #d5bfa8;
+    padding: 1px;
+    margin-bottom: 50px;
+   
+}
+
+.post-box .date{
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background: #333333;
+	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
+}
+.post-info{
+	padding: 15px 15px 20px 15px;
+	background: #ffffff;
+	
+	margin-top: 10px;
+    text-align: center;
+    
+}
+.post-box .post-thumb::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(51, 51, 51, 0.80);
+	opacity: 0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	-webkit-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.post-box:hover .post-thumb::before{
+	opacity: .4;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.post-box:hover .post-thumb::before{
+	opacity: .6;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.row a {
+    color: #2d2e47;
+    text-align: center;
+   
+    
+}
+.row a:hover {
+    color: #95836c !important;
+}
+
+
+
+/* navbar*/
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color:rgb(47, 49, 85);
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 15px;
+}
+
+.nav-links li a {
+  color: rgb(47, 49, 85);
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(47, 49, 85);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  padding: 5px 0;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+

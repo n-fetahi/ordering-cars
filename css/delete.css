@@ -1,0 +1,74 @@
+.confirmation-box {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 25vw;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+  
+  .cover{
+    background-color: rgba(0, 0, 0, 0.303);
+    display: none;
+    position: fixed;
+    top: 0;
+    
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9998;
+  }
+  
+  .confirmation-content {
+   
+    text-align: center;
+  }
+  
+  .confirmation-content p {
+    text-align: center;
+
+    margin-bottom: 20px;
+  }
+  
+  
+    .confirmation-content #cancelDeleteButton {
+    margin: 0 5px;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+  
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+  }
+  .confirmation-content #confirmDeleteButton {
+    margin: 0 5px;
+    padding: 8px 35px;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+  
+    cursor: pointer;
+
+    background-color: rgb(222, 24, 24);
+    color: white;
+    border: none;
+
+    text-decoration: none;
+  
+  
+  }
+  .confirmation-content #confirmDeleteButton:hover {
+    background-color: rgb(199, 20, 20);
+  
+  }
+  .confirmation-content #cancelDeleteButton:hover {
+    background-color: #e7e9eb;
+  }
